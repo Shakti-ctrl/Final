@@ -1,3 +1,4 @@
+import os
 from flask import Flask, render_template_string, request, redirect, send_file, session, url_for, jsonify
 import subprocess
 import os
@@ -8,7 +9,6 @@ from werkzeug.utils import secure_filename
 import zipfile
 import requests
 from urllib.parse import urlparse, urlunparse
-import os
 
 app = Flask(__name__)
 app.secret_key = 'securekey123'
