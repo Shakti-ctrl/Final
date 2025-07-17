@@ -419,7 +419,7 @@ def send_uploaded_file_to_bot(path, bot_token, chat_id):
     log(f"✅ Uploaded and removed: {filename}")
 
 # Updated TEMPLATE with tabs, dark mode, audio playback queue, batch rename modal, scrollable audio list & search, single video download tab
-TEMPLATE = '''<!DOCTYPE html>
+TEMPLATE = r'''<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
